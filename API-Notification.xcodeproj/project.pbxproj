@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FAC14B120C6728500942059 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC14B020C6728500942059 /* ViewController.swift */; };
+		2FAC14B320C672A500942059 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC14B220C672A500942059 /* DataService.swift */; };
+		2FAC14B520C672AD00942059 /* Champ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC14B420C672AD00942059 /* Champ.swift */; };
 		2FC969A320C627EE0014D37C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC969A220C627EE0014D37C /* AppDelegate.swift */; };
-		2FC969A520C627EE0014D37C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC969A420C627EE0014D37C /* ViewController.swift */; };
 		2FC969A820C627EE0014D37C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC969A620C627EE0014D37C /* Main.storyboard */; };
 		2FC969AA20C627EE0014D37C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC969A920C627EE0014D37C /* Assets.xcassets */; };
 		2FC969AD20C627EE0014D37C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC969AB20C627EE0014D37C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FAC14B020C6728500942059 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FAC14B220C672A500942059 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		2FAC14B420C672AD00942059 /* Champ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Champ.swift; sourceTree = "<group>"; };
 		2FC9699F20C627EE0014D37C /* API-Notification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API-Notification.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC969A220C627EE0014D37C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2FC969A420C627EE0014D37C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2FC969A720C627EE0014D37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FC969A920C627EE0014D37C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FC969AC20C627EE0014D37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,13 +59,31 @@
 			isa = PBXGroup;
 			children = (
 				2FC969A220C627EE0014D37C /* AppDelegate.swift */,
-				2FC969A420C627EE0014D37C /* ViewController.swift */,
+				2FC969B520C6281B0014D37C /* Model */,
+				2FC969B420C628060014D37C /* ViewController */,
 				2FC969A620C627EE0014D37C /* Main.storyboard */,
 				2FC969A920C627EE0014D37C /* Assets.xcassets */,
 				2FC969AB20C627EE0014D37C /* LaunchScreen.storyboard */,
 				2FC969AE20C627EE0014D37C /* Info.plist */,
 			);
 			path = "API-Notification";
+			sourceTree = "<group>";
+		};
+		2FC969B420C628060014D37C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2FAC14B020C6728500942059 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2FC969B520C6281B0014D37C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FAC14B220C672A500942059 /* DataService.swift */,
+				2FAC14B420C672AD00942059 /* Champ.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FC969A520C627EE0014D37C /* ViewController.swift in Sources */,
+				2FAC14B320C672A500942059 /* DataService.swift in Sources */,
+				2FAC14B120C6728500942059 /* ViewController.swift in Sources */,
 				2FC969A320C627EE0014D37C /* AppDelegate.swift in Sources */,
+				2FAC14B520C672AD00942059 /* Champ.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
