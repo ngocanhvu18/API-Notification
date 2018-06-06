@@ -10,7 +10,6 @@
 		2FAC14B120C6728500942059 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC14B020C6728500942059 /* ViewController.swift */; };
 		2FAC14B320C672A500942059 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC14B220C672A500942059 /* DataService.swift */; };
 		2FAC14B520C672AD00942059 /* Champ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC14B420C672AD00942059 /* Champ.swift */; };
-		2FAC14DB20C693E000942059 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC14DA20C693E000942059 /* TableViewController.swift */; };
 		2FC969A320C627EE0014D37C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC969A220C627EE0014D37C /* AppDelegate.swift */; };
 		2FC969A820C627EE0014D37C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC969A620C627EE0014D37C /* Main.storyboard */; };
 		2FC969AA20C627EE0014D37C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC969A920C627EE0014D37C /* Assets.xcassets */; };
@@ -21,7 +20,6 @@
 		2FAC14B020C6728500942059 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2FAC14B220C672A500942059 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		2FAC14B420C672AD00942059 /* Champ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Champ.swift; sourceTree = "<group>"; };
-		2FAC14DA20C693E000942059 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		2FC9699F20C627EE0014D37C /* API-Notification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API-Notification.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC969A220C627EE0014D37C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FC969A720C627EE0014D37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				2FAC14B020C6728500942059 /* ViewController.swift */,
-				2FAC14DA20C693E000942059 /* TableViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -164,7 +161,6 @@
 				2FAC14B320C672A500942059 /* DataService.swift in Sources */,
 				2FAC14B120C6728500942059 /* ViewController.swift in Sources */,
 				2FC969A320C627EE0014D37C /* AppDelegate.swift in Sources */,
-				2FAC14DB20C693E000942059 /* TableViewController.swift in Sources */,
 				2FAC14B520C672AD00942059 /* Champ.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

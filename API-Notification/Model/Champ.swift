@@ -8,7 +8,7 @@
 
 import Foundation
 
-
+typealias DICT = Dictionary<AnyHashable, Any>
 
 class Champ {
     var id_Champ : String

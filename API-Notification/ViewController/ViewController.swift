@@ -13,13 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        NotificationCenter.default.addObserver(self, selector: #selector(handler), name: NSNotification.Name.init("update"), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(handler), name: NSNotification.Name.init("EndUpdateData"), object: nil)
         DataService.shared.getDataAPI()
         
     }
     
     @objc func handler() {
-        champs = DataService.shared.champs ?? []
+        champs = DataService.shared.champs
         
         champs.forEach { print($0.nameVN_Champ) }
     }
